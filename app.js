@@ -27,7 +27,7 @@ mongoose
     console.log("Error: ", err);
   });
 
-//////Requests targetting all the articles/////////////////
+//////Requests targeting all the articles/////////////////
 app
   .route("/articles")
   .get(async function (req, res, next) {
